@@ -1,4 +1,4 @@
-# GitHub Release Download Analysis
+# GitHub Release Stats
 
 一个用于统计 GitHub Release 下载量的可视化工具，支持图表展示、文件过滤、日夜间主题切换以及 URL 参数传递。
 

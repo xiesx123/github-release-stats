@@ -1,7 +1,7 @@
 <template>
   <el-card class="header-card" :style="cardStyle">
     <div class="header-inner">
-      <h1 class="top-title" :style="titleStyle">Github Release Download Analysis</h1>
+      <h1 class="top-title" :style="titleStyle">Github Release Stats</h1>
       <button
         class="vp-theme-toggle"
         :class="{ 'is-dark': theme === 'dark' }"
