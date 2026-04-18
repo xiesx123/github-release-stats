@@ -1,17 +1,14 @@
 {
-  "name": "my-app",
+  "name": "github-release-stats",
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=16"
+    "node": ">=20"
   },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "serve:legacy": "node --openssl-legacy-provider ./node_modules/@vue/cli-service/bin/vue-cli-service.js serve",
-    "build:legacy": "node --openssl-legacy-provider ./node_modules/@vue/cli-service/bin/vue-cli-service.js build",
-    "export:docs": "npm run build:legacy && node scripts/export-to-docs.js"
+    "serve": "node --openssl-legacy-provider ./node_modules/@vue/cli-service/bin/vue-cli-service.js serve",
+    "build": "node --openssl-legacy-provider ./node_modules/@vue/cli-service/bin/vue-cli-service.js build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
