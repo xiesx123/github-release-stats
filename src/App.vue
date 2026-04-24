@@ -72,6 +72,7 @@ export default {
   --border-color: #e5e7eb;
   --link-color: #1d4ed8;
   --shadow-color: rgba(15, 23, 42, 0.08);
+  --bg-hover: rgba(0, 0, 0, 0.04);
 }
 
 :root[data-theme="dark"],
@@ -86,15 +87,14 @@ body[data-theme="dark"],
   --border-color: #2f3a52;
   --link-color: #93c5fd;
   --shadow-color: rgba(0, 0, 0, 0.35);
+  --bg-hover: rgba(255, 255, 255, 0.06);
 }
 
 body {
   margin: 0;
-  background: linear-gradient(
-    135deg,
-    var(--bg-gradient-start) 0%,
-    var(--bg-gradient-end) 100%
-  );
+  background: linear-gradient(135deg,
+      var(--bg-gradient-start) 0%,
+      var(--bg-gradient-end) 100%);
   color: var(--text-primary);
   transition: background 0.25s ease, color 0.25s ease;
 }
@@ -106,9 +106,11 @@ body {
   color: var(--text-primary);
   min-height: 100vh;
 }
+
 #app .container-top {
   padding: 0;
 }
+
 #app .container-main {
   padding: 12px 16px 20px;
 }
